@@ -20,6 +20,19 @@
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
+.download {
+  background: url("../images/download-background.jpg") center center no-repeat;
+  background-size: cover;
+}
+
+.map iframe {
+  left: 0;
+  top: 0;
+  height: 400px;
+  width: 100%;
+  border: none;
+}
+
 @media (max-width: 1000px) {
   .hero .image-container {
     display: flex;
